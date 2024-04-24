@@ -35,22 +35,6 @@ public class HashMap<K, V> implements Iterable<HashMap.Entity> {
             } catch (Exception e) {
                 return null;
             }
-
-
-
-            // return buckets[countIterator];
-
-            // HashMap.Entity entity = null;
-            // try {
-            //     if (buckets[countIterator] != null && buckets[countIterator].head != null && buckets[countIterator].head.value != null) {
-            //         entity = buckets[countIterator].head.value;
-            //     }
-            // } catch (Exception e) {
-            //     // TODO Auto-generated catch block
-            //     e.printStackTrace();
-            // }
-            // countIterator++;
-            // return entity;
         }
 
     }
